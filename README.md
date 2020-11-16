@@ -5,9 +5,9 @@
 
 ## 開発環境
 - 言語・フレームワーク
- - React, Nextjs
+  - React, Nextjs
 - ホスティングサービス
- - Vercel
+  - Vercel
 
 ## リンク
 [Ryo Portfolio](https://portfolio-one-theta.vercel.app/)
