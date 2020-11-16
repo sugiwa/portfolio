@@ -4,7 +4,7 @@ import Layout from '../components/Layout';
 import * as contentful from 'contentful';
 import Button from '@material-ui/core/Button';
 
-function Blog() {
+const Blog = () => {
   const client = contentful.createClient({
     space: process.env.SPACE_ID,
     accessToken: process.env.ACCESS_TOKEN
@@ -28,8 +28,7 @@ function Blog() {
   },[isLoading])
 
   return (
-    <Layout>
-
+    <Layout title='Blog' description='これまでに身に付けた知識や問題の解決方法を紹介した記事へのリンクです。'>
         <div className='contents'>
             <h2>Blog</h2>
             <div className='wrapper'>
