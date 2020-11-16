@@ -4,12 +4,10 @@ import Layout from '../components/Layout';
 import * as contentful from 'contentful';
 import Button from '@material-ui/core/Button';
 
-require('dotenv').config();
-
 function Blog() {
   const client = contentful.createClient({
-    space: process.env.NEXT_PUBLIC_CONTENTFUL_SPACE_ID,
-    accessToken: process.env.NEXT_PUBLIC_CONTENTFUL_ACCESS_TOKEN
+    space: process.env.SPACE_ID,
+    accessToken: process.env.ACCESS_TOKEN
   });
 
   const [blogs, setBlogs] = useState([])
