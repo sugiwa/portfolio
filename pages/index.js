@@ -2,7 +2,7 @@ import React from 'react';
 import Work from '../components/Work';
 import Layout from '../components/Layout';
 
-function Data() {
+const Data = () => {
     const WorkLists = [
         {
             name:'Example Blog',
@@ -30,7 +30,7 @@ function Data() {
         },
     ]
     return (
-        <Layout>
+        <Layout description='これまでの制作物を紹介しています。'>
             <div className='contents'>
                 <h2>Works</h2>
                 <div className='wrapper'>

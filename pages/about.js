@@ -2,7 +2,7 @@ import React from 'react';
 import Work from '../components/Work';
 import Layout from '../components/Layout';
 
-function Profile() {
+const Profile = () => {
     const skillList = [
         {
             name:'HTML5',
@@ -87,7 +87,7 @@ function Profile() {
     ]
 
     return (
-        <Layout>
+        <Layout title='About' description='Ryoのプロフィールとスキルを紹介しています。'>
             <div className='contents'>
                 <h2>Profile</h2>
                 <div className='wrapper'>
