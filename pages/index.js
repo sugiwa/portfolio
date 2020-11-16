@@ -14,10 +14,10 @@ function Data() {
         },
         {
             name:'Ryo Portfolio',
-            description:'Reactを用いて作成したポートフォリオで、Netlifyにデプロイしました。',
+            description:'Nextjsを用いて作成したポートフォリオで、Vercelにデプロイしました。',
             image:'../static/image/portfolio.png',
-            url:'',
-            details:'Reactで作成したポートフォリオサイトをNextjsに移行しました。レスポンシブで白を基調としたシンプルなデザインとなるよう意識しました。',
+            url:'https://portfolio-one-theta.vercel.app/',
+            details:'Reactで作成したポートフォリオサイトをNextjsに移行しました。レスポンシブでシンプルなデザインとなるよう意識しました。',
             skill:'React,Nextjs'
         },
         {
