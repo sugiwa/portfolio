@@ -13,7 +13,7 @@ const Blog = () => {
   const [blogs, setBlogs] = useState([])
   const [isLoading, setIsLoading] = useState(true)
 
-  const fetchBlogPost = async() => {
+  useEffect(async() => {
     const response = await client.getEntries({
       content_type: "blogPost",
       order: "-sys.createdAt",
@@ -21,10 +21,6 @@ const Blog = () => {
     })
     setBlogs(response.items);
     setIsLoading(false);
-  }
-  
-  useEffect(() => {
-    fetchBlogPost();
   },[isLoading])
 
   return (
