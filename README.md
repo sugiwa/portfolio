@@ -10,7 +10,7 @@
   - Vercel
 
 ## API
-- Contentful
+- Contentful  
 別サイト([Ryo Blog](https://www.ryoblg.com/))にある最新記事の一部のリンクを取得してその記事に飛べるようにしています。
 
 ## リンク
