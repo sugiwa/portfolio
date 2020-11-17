@@ -9,5 +9,9 @@
 - ホスティングサービス
   - Vercel
 
+## API
+- Contentful
+別サイト([Ryo Blog](https://www.ryoblg.com/))にある最新記事の一部のリンクを取得してその記事に飛べるようにしています。
+
 ## リンク
 [Ryo Portfolio](https://portfolio-one-theta.vercel.app/)
