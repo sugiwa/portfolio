@@ -6,7 +6,7 @@ const Data = () => {
     const WorkLists = [
         {
             name:'Example Blog',
-            description:'Gatsbyを学習するためチュートリアルを参考にして作成し、Netlifyへデプロイしました。',
+            description:'Gatsbyを学習するためチュートリアルを参考にして作成し、Netlifyでホスティングしています。',
             image:'../static/image/exampleblog.png',
             url:'https://youthful-williams-7f4bf8.netlify.app/',
             details:'Reactでブログを作成するにあたり、フレームワークの候補としてGatsbyかNextが挙がりましたがGatsbyの方が速くGraphQLが使えるとのことなのでこちらを採用しました。',
@@ -14,7 +14,7 @@ const Data = () => {
         },
         {
             name:'Ryo Portfolio',
-            description:'Nextjsを用いて作成したポートフォリオで、Vercelにデプロイしました。',
+            description:'Nextjsを用いて作成したポートフォリオで、Vercelでホスティングしています。',
             image:'../static/image/portfolio.png',
             url:'https://portfolio-one-theta.vercel.app/',
             details:'Reactで作成したポートフォリオサイトをNextjsに移行しました。レスポンシブでシンプルなデザインとなるよう意識しました。',
@@ -25,7 +25,7 @@ const Data = () => {
             description:'学習のアウトプットとしての情報発信兼新たな技術を試すためのサイトです',
             image:'../static/image/ryoblog.png',
             url:'https://www.ryoblg.com/',
-            details:'このサイトはNetlifyにデプロイされ、Contentfulで書かれた記事を取得しています。また、シンタックスハイライトやその他ツールなどブログとして活用できそうな機能を実際に取り入れて試すということも行っています。',
+            details:'このサイトはNetlifyでホスティングされ、Contentfulで書かれた記事を取得しています。また、シンタックスハイライトやその他ツールなどブログとして活用できそうな機能を実際に取り入れて試すということも行っています。',
             skill:'React,Gatsby,GraphQL'
         },
     ]
