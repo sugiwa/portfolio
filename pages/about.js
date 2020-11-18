@@ -53,6 +53,18 @@ const Profile = () => {
             experience:'1ヶ月',
         },
         {
+            name:'Ruby',
+            description:'基本的な操作は可能です。',
+            image:'../static/image/ruby.svg',
+            experience:'1ヶ月',
+        },
+        {
+            name:'Rails',
+            description:'基本的な操作は可能です。APIを作成するため学習中',
+            image:'../static/image/rails.svg',
+            experience:'1ヶ月',
+        },
+        {
             name:'Python',
             description:'Numpyなどの基本的なライブラリも使用可能です。',
             image:'../static/image/python.svg',
@@ -66,18 +78,6 @@ const Profile = () => {
         },
     ]
     const learningList = [
-        {
-            name:'Ruby',
-            description:'基本的な操作は可能です。',
-            image:'../static/image/ruby.svg',
-            experience:'',
-        },
-        {
-            name:'Rails',
-            description:'基本的な操作は可能です。APIを作成するため学習中',
-            image:'../static/image/rails.svg',
-            experience:'',
-        },
         {
             name:'TypeScript',
             description:'より高度な開発を行うため学習中',
